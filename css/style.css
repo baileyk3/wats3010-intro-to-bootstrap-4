@@ -8,3 +8,21 @@
 .footer-item-flex {
   flex: 0 1 auto;
 }
+
+body {
+  background: repeating-radial-gradient(green, lightblue);
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background: yellowgreen;
+  }
+}
+@media screen and (min-width: 401px, max-width: 800px) {
+  body {
+    background: green;
+  }
+}
+.nav-item:hover {
+  text-size-adjust: large;
+}

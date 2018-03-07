@@ -10,19 +10,19 @@
 }
 
 body {
-  background: repeating-radial-gradient(green, lightblue);
+  background: yellowgreen;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
   body {
-    background: yellowgreen;
+    background: pink;
   }
 }
-@media screen and (min-width: 401px, max-width: 800px) {
+@media screen and (min-width: 800px) {
   body {
-    background: green;
+    background: repeating-linear-gradient(red, yellow);
   }
 }
-.nav-item:hover {
-  text-size-adjust: large;
+li.nav-item:hover {
+  border: 1px white dotted;
 }
